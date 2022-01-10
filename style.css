@@ -456,6 +456,57 @@ p{
 
 }
 
+
+.with-your-section-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.with-your-section-information{
+    width: 100%;
+}
+
+
+   
+   .with-your-section-box img {
+       width: 80%;
+   }
+
+
+   .online-store {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+ 
+      
+}
+
+.online-store-col{
+    padding-left: 50px;
+    width: 100%;
+}
+
+.footer-container {
+    padding-left: 30px;
+}
+
+
+.footer-menu{
+    display: none;
+}
+
+.social-link img {
+    width: 10%;
+}
+
+.lower-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
     
     
 }
