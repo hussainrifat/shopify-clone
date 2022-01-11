@@ -354,7 +354,7 @@ margin-top: 30px;
     display: flex;
 }
 
-@media (max-width:746px) {
+@media (max-width:480px) {
     .main-header img {
         width: 20%;
         height: 5%;
@@ -390,6 +390,8 @@ margin-top: 30px;
     padding: 20px 20px;
     
 }
+
+
 
 .bring-online-section {
     padding: 50px 30px 0 30px;
@@ -442,7 +444,7 @@ h3 {
 
 h4 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     font-weight: 500;   
 }
@@ -460,26 +462,29 @@ p{
 .with-your-section-box {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 .with-your-section-information{
     width: 100%;
+    text-align: center;
 }
 
 
    
    .with-your-section-box img {
        width: 80%;
+       text-align: center;
    }
 
 
    .online-store {
     display: flex;
     flex-direction: column; 
-    align-items: center;
- 
-      
+    align-items: center; 
+
 }
 
 .online-store-col{
@@ -497,7 +502,213 @@ p{
 }
 
 .social-link img {
-    width: 10%;
+    width: 8%;
+}
+
+.lower-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header {
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main-header a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600px;
+}
+
+.right-nav {
+    padding: 10px 0;
+}
+
+.left-nav {
+    padding: 10px 0;
+}
+
+.third-container h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 400;  
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.third-container p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #6B7389;
+    font-weight: 200;  
+    text-align: center;
+}
+  
+    
+}
+
+
+@media (max-width:768px) {
+
+
+    .main-header img {
+        width: 20%;
+        height: 5%;
+        margin-right: 20px;
+    }
+
+    .first-half {
+        width:100%;
+    }
+
+    .first-half h1{
+        color:#004C3F;
+        font-size: 40px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    
+.second-half {
+    width:100%;
+    padding: 30px;
+}
+
+.second-half img {
+    width: 100%;
+}
+
+.col {
+    max-width: 1260px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px 30px;
+    
+}
+
+
+
+.bring-online-section {
+    padding: 50px 30px 0 30px;
+}
+
+
+
+.bring-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    
+
+}
+.card{
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.card img{
+    width: 100%;
+}
+
+
+.best-path-box{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 0 50px 0;
+}
+
+.best-path-box-card {
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+
+.best-path-box-card img {
+ width: 25%;
+}
+
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;   
+}
+
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;   
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 100px;
+    line-height: 20px;
+
+}
+
+.With-your-section {
+    padding: 0 30px;
+}
+
+.with-your-section-box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 30px;
+}
+
+.with-your-section-information{
+    width: 100%;
+    padding:0;
+
+}
+
+
+   
+   .with-your-section-box img {
+       width: 80%;
+       text-align: center;
+   }
+
+
+   .online-store {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    align-items: center;
+
+}
+
+.online-store-col{
+    padding-left: 50px;
+    width: 100%;
+}
+
+.footer-container {
+    padding-left: 30px;
+}
+
+
+.footer-menu{
+    display: none;
+}
+
+.social-link img {
+    width: 8%;
 }
 
 .lower-footer {
@@ -549,7 +760,12 @@ p{
     text-align: center;
 }
 
+.box-2 {
+    order: 0;
+}
 
-    
+.box-3 {
+    order: 1;
+}
     
 }
